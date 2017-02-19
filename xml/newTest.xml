@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/Users/christopherbyrne/Desktop/schoolwork/standalone.xsl" type="text/xsl"?>
+<tests>
+  <test modulecode="03C" date="2015-01-18">
+    <questions>
+      <question id="s-colour">
+        <title>What is the colour of FreeBSD's mascot?</title>
+        <answers>
+          <answer correct="yes">red</answer>
+          <answer>black</answer>
+          <answer>purple</answer>
+          <answer>grey</answer>
+        </answers>
+      </question>
+      <question id="a-life">
+        <title>What is the highest architecture Windows offers?</title>
+        <answers>
+          <answer correct="yes">64</answer>
+          <answer>32</answer>
+          <answer>1024</answer>
+          <answer>1</answer>
+        </answers>
+      </question>
+      <question id="i-processors">
+        <title>What instructions are fed to processors?</title>
+        <answers>
+          <answer correct="yes">Assembly</answer>
+          <answer>C</answer>
+          <answer>Python</answer>
+          <answer>PHP</answer>
+        </answers>
+      </question>
+      <question id="s-root">
+        <title>What is square root of 42 to the nearest two decimal places?</title>
+        <answers>
+          <answer correct="yes">6.48</answer>
+          <answer>100</answer>
+          <answer>42</answer>
+          <answer>3.142</answer>
+        </answers>
+      </question>
+    </questions>
+  </test>
+</tests>

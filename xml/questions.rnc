@@ -1,0 +1,12 @@
+grammar {
+	start = Questions
+
+	Questions = element questions {Question*}
+	Question = element question {Title, Answers, Question-ID, topic}
+	Answers = element answers{Answer*}
+	Answer = element answer{text, Correct}
+	Correct = attribute correct{"yes" | "no"}?
+	Question-ID = attribute id{text}
+	Title = element title{xsd:string{maxLength = "255"}}
+	Topic = attribute topic{xsd:string{maxLength = "255"}}
+}

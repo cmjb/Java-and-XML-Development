@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<question id="r-ram" topic="Computer Architecture">
+		<title>What version of RAM is the latest?</title>
+		<answers>
+			<answer correct="yes">DDR4</answer>
+			<answer>DDR1</answer>
+			<answer>SDRAM</answer>
+			<answer>DDR100</answer>
+		</answers>
+	</question>
+	<question id="a-linux" topic="Computer Systems">
+		<title>What is Linux compiled with?</title>
+		<answers>
+			<answer correct="yes">GNU GCC</answer>
+			<answer>Clang</answer>
+			<answer>Microsoft VC++</answer>
+			<answer>Apple LLVM</answer>
+		</answers>
+	</question>
+	<question id="s-linux" topic="Computer Systems">
+		<title>Which Linux distribution features a spiral for it's logo?</title>
+		<answers>
+			<answer correct="yes">Debian</answer>
+			<answer>RedHat</answer>
+			<answer>Fedora</answer>
+			<answer>Gentoo</answer>
+		</answers>
+	</question>
+	<question id="c-runtime" topic="Computer Architecture">
+		<title>Does C compile at runtime?</title>
+		<answers>
+			<answer>yes</answer>
+			<answer correct="yes">no</answer>
+		</answers>
+	</question>
+	<question id="s-colour" topic="Computer Systems">
+		<title>What is the colour of FreeBSD's mascot?</title>
+		<answers>
+			<answer correct="yes">red</answer>
+			<answer>black</answer>
+			<answer>purple</answer>
+			<answer>grey</answer>
+		</answers>
+	</question>
+		<question id="a-life" topic="Computer Architecture">
+		<title>What is the highest architecture Windows offers?</title>
+		<answers>
+			<answer correct="yes">64</answer>
+			<answer>32</answer>
+			<answer>1024</answer>
+			<answer>1</answer>
+		</answers>
+	</question>
+		<question id="i-processors" topic="Computer Architecture">
+		<title>What instructions are fed to processors?</title>
+		<answers>
+			<answer correct="yes">Assembly</answer>
+			<answer>C</answer>
+			<answer>Python</answer>
+			<answer>PHP</answer>
+		</answers>
+	</question>
+	<question id="s-root" topic="Computer Mathematics">
+		<title>What is square root of 42 to the nearest two decimal places?</title>
+		<answers>
+			<answer correct="yes">6.48</answer>
+			<answer>100</answer>
+			<answer>42</answer>
+			<answer>3.142</answer>
+		</answers>
+	</question>
+		<question id="r-rdb" topic="Relation Database">
+		<title>What does MySQL stand for?</title>
+		<answers>
+			<answer correct="yes">My + Structure Query Language</answer>
+			<answer>My Standard Quiver Loss</answer>
+			<answer>Postgres</answer>
+			<answer>Structured Query Language</answer>
+		</answers>
+	</question>
+		<question id="x-xslt" topic="XML">
+		<title>What does XSLT stand for?</title>
+		<answers>
+			<answer correct="yes">Extensible Stylesheet Language Transform</answer>
+			<answer>XML Simple Language Templating</answer>
+			<answer>Xtra Sauce Laughter Train</answer>
+			<answer>Unknown Programming Paradigm</answer>
+		</answers>
+	</question>
+	<question id="x-xml" topic="XML">
+		<title>What does XML stand for?</title>
+		<answers>
+			<answer correct="yes">Extensible Markup Language</answer>
+			<answer>XML Simple Language Templating</answer>
+			<answer>Xtra Sauce Laughter Train</answer>
+			<answer>Unknown Programming Paradigm</answer>
+		</answers>
+	</question>
+		<question id="x-rng" topic="XML">
+		<title>What does RNG stand for?</title>
+		<answers>
+			<answer correct="yes">Relax New Generation</answer>
+			<answer>XML Simple Language Templating</answer>
+			<answer>Xtra Sauce Laughter Train</answer>
+			<answer>Unknown Programming Paradigm</answer>
+		</answers>
+	</question>
+</questions>

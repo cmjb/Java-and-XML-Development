@@ -1,0 +1,10 @@
+grammar {
+	start = Tests
+
+	ModuleCode = attribute modulecode{xsd:string {length = "3"}}
+	Date = attribute date {xsd:date}
+	ID = attribute id {xsd:string}
+	Tests = element tests {Test*}
+	Test = element test {ModuleCode, Date, Questions*}
+	Questions = element questions{ID}
+}

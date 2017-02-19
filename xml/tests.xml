@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+
+<tests>
+	<test modulecode="03C" date="2010-10-8"> <!-- Date must be set according to ISO 8601 e.g. yyyy-mm-dd -->
+		<questions id="s-colour"/>
+		<questions id="r-ram"/>
+		<questions id="x-xslt"/>
+		<questions id="s-linux"/>
+	</test>
+	<test modulecode="05H" date="1999-10-10"> <!-- Date must be set according to ISO 8601 e.g. yyyy-mm-dd -->
+		<questions id="i-processors" />
+		<questions id="a-life" />
+		<questions id="s-root" />
+		<questions id="x-rng" />
+	</test>
+	<test modulecode="06L" date="2014-12-12"> <!-- Date must be set according to ISO 8601 e.g. yyyy-mm-dd -->
+		<questions id="c-runtime" />
+		<questions id="x-xslt" />
+		<questions id="s-root" />
+		<questions id="i-processors" />
+	</test>
+	<test modulecode="05A" date="1999-10-10"> <!-- Date must be set according to ISO 8601 e.g. yyyy-mm-dd -->
+		<questions id="s-root" />
+		<questions id="x-xslt" />
+		<questions id="r-rdb" />
+		<questions id="x-xml" />
+	</test>
+</tests>
